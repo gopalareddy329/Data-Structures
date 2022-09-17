@@ -58,7 +58,7 @@ void display(){
 }
 void distroy(){
     if(front==NULL){
-        printf("Stack is empty\n");
+        printf("Queue is empty\n");
     }
     else{
         struct node *p=front;
